@@ -27,12 +27,12 @@ void insertion_sort_list(listint_t **list)
 			tmp->next = ptr;
 
 			if (tmp->prev)
-				ptr= tmp->prev;
+				ptr = tmp->prev;
 			else
 				*list = tmp;
 
 			print_list(*list);
 		}
-		ptr =ptr->next;
+		ptr = ptr->next;
 	}
 }
