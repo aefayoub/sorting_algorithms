@@ -1,5 +1,13 @@
 #include "sort.h"
 
+/**
+ * insertion_sort_list - sorts a DLL of integers in
+ * ascending order using the insertion sort
+ * algorithm
+ *
+ * @list: doubly linked list
+ * Return: no return
+ */
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *ptr, *tmp;
